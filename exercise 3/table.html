@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 3 - Table and Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Student Table</h2>
+
+<table>
+    <tr>
+        <td>Name: Yesset</td>
+        <td>Group: SE-2427</td>
+        <td>Grade: 80</td>
+    </tr>
+    <tr>
+        <td>Name: Aidyn</td>
+        <td>Group: SE-2427</td>
+        <td>Grade: 90</td>
+    </tr>
+    <tr>
+        <td>Name: Dilyara</td>
+        <td>Group: SE-2427</td>
+        <td>Grade: 100</td>
+    </tr>
+</table>
+
+<h2>Feedback Form</h2>
+
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="role">Role:</label>
+    <select id="role" name="role">
+        <option>Student</option>
+        <option>Teacher</option>
+        <option>Other</option>
+    </select>
+
+    <p>Do you like our course?</p>
+
+    <label for="yes">Yes</label>
+    <input type="radio" id="yes" name="like_course" value="yes">
+
+    <label for="no">No</label>
+    <input type="radio" id="no" name="like_course" value="no">
+
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments" rows="4"></textarea>
+
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
